@@ -1,0 +1,20 @@
+{
+  "name": "sticky-plugin",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/sticky-plugin.umd.cjs",
+  "module": "./dist/sticky-plugin.js",
+  "exports": {
+    ".": {
+      "import": "./dist/sticky-plugin.js",
+      "require": "./dist/sticky-plugin.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+}
